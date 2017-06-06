@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GifTastic</title>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+   <link rel="stylesheet" type="text/css" href="assets/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!--   Goggle Font -->
+<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+<!-- Animation link -->
+<link href='https://static.tumblr.com/blpgwiz/kVZm8o4rz/tilting.css' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+<body> 
+     <div class="jumbotron" style="background-image:url(assets/image/congruent_outline/congruent_outline.png)"> 
+<!-- Music -->
+        <div class="music">Stop Music :</div>
+          <audio id="WillSmith" autoplay="autoplay">
+              <source src="assets/image/GettinJiggyWitIt.mp3" type="audio/mp3">
+          </audio>
+        <img src="assets/image/mute.png" width="30px" height=30px onclick="document.getElementById('WillSmith').pause()"./>
+       
+
+ <!-- Holds the gif category buttons -->
+         <div class="container">
+         <div class="popup_block">
+          <h1> Lets Get Giphy With It</h1>
+          </div>
+            <div id="gifButton"></div>
+        </div>
+  <!-- <br> -->
+             <div class = "row">
+                 <form id = "gifInput" class = " col-xs-12 col-md-offset-8 col-md-2">
+              
+                    <label for="gif-input">Add a New Categotry</label><br>
+
+                    <input type="text" id="textInput" class>
+                    <br>
+                    <input id = "newGif"  type ="submit" value="Sumbit" class="btn btn-primary">
+                </form>
+               </div> 
+            </div> 
+                   
+
+    <div id = "gifsHere">
+    </div>
+
+    <div id= "footer" class="copyrights text-center footer" style="margin-top:100px; ">
+     <p>
+       Copyright © 2017, All Rights Reserved
+       <br>
+       <span>Web Design By: Jessica Salter</span>
+     </p>
+
+
+
+ </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   <script src="assets/JavaScript/gif.js"></script>
+
+</body>
+</html>

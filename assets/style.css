@@ -1,0 +1,43 @@
+h1{
+	text-align: center;
+	padding: 10px;
+
+}
+
+.gifCat {
+
+	margin:1%;
+	background: white;
+	color:black;
+}
+
+.jumbotron{
+	background-image: url ("assets/image/congruent_outline/congruent_outline.png"); 
+	
+}
+
+.container{
+	color:white;
+   font-family: 'Francois One', sans-serif;
+}
+
+.row{
+	color:black;
+}
+
+.popup_block {
+	-webkit-animation: fly 3s linear normal;
+-moz-animation: fly 3s linear normal;
+-ms-animation: fly 3s linear normal;
+-o-animation: fly 3s linear normal;
+animation: fly 3s linear ·normal;
+animation-iteration-count: 1;
+}
+
+.music {
+	color:red;
+	float: left;
+	margin:.3%;
+	
+	}
+
